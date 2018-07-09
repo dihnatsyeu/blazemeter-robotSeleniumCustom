@@ -5,6 +5,7 @@ Suite Teardown  Close pages
 
 *** Test Cases ***
 The user can search for flights
+    [Tags]      Search_flight
     Select Departure   Paris
     Select Destination    London
     Search Flights
